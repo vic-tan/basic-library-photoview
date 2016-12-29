@@ -21,7 +21,7 @@
              android:layout_height="match_parent"
              android:orientation="vertical">
 
-    <com.tlf.basic.support.galleryfinal.widget.GFImageView
+    <com.tlf.basic.photoview.galleryfinal.widget.GFImageView
         android:id="@+id/iv_thumb"
         android:layout_width="match_parent"
         android:layout_height="match_parent"

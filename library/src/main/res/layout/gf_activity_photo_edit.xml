@@ -98,14 +98,14 @@
         android:layout_weight="1"
         >
 
-        <com.tlf.basic.support.galleryfinal.widget.zoonview.PhotoView
+        <com.tlf.basic.photoview.galleryfinal.widget.zoonview.PhotoView
             android:id="@+id/iv_source_photo"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:background="@drawable/bg_gf_crop_texture"
             />
 
-        <com.tlf.basic.support.galleryfinal.widget.crop.CropImageView
+        <com.tlf.basic.photoview.galleryfinal.widget.crop.CropImageView
             android:id="@+id/iv_crop_photo"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -123,7 +123,7 @@
             android:visibility="gone"
             />
 
-        <com.tlf.basic.support.galleryfinal.widget.FloatingActionButton
+        <com.tlf.basic.photoview.galleryfinal.widget.FloatingActionButton
             android:id="@+id/fab_crop"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -145,7 +145,7 @@
             android:background="#d2d2d7"
             />
 
-        <com.tlf.basic.support.galleryfinal.widget.HorizontalListView
+        <com.tlf.basic.photoview.galleryfinal.widget.HorizontalListView
             android:id="@+id/lv_gallery"
             android:layout_width="match_parent"
             android:layout_height="100dp"

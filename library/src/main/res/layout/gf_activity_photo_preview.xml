@@ -42,7 +42,7 @@
             android:layout_centerInParent="true"/>
     </RelativeLayout>
 
-    <com.tlf.basic.support.galleryfinal.widget.GFViewPager
+    <com.tlf.basic.photoview.galleryfinal.widget.GFViewPager
         android:id="@+id/vp_pager"
         android:layout_width="match_parent"
         android:layout_height="match_parent"

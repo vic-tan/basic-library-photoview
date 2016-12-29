@@ -167,7 +167,7 @@
             />
     </FrameLayout>
 
-    <com.tlf.basic.support.galleryfinal.widget.FloatingActionButton
+    <com.tlf.basic.photoview.galleryfinal.widget.FloatingActionButton
         android:id="@+id/fab_ok"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
