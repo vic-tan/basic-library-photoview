@@ -8,7 +8,7 @@ android {
         minSdkVersion 15
         targetSdkVersion 25
         versionCode 1
-        versionName "1.0"
+        versionName "1.0.3"
 
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
 
@@ -30,7 +30,7 @@ dependencies {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
     compile 'com.nostra13.universalimageloader:universal-image-loader:1.9.5'
-    compile 'com.vic-tan:basic-library-base:1.0.0'
+    compile 'com.vic-tan:basic-library-base:1.0.2'
     compile 'com.android.support:appcompat-v7:25.0.1'
     testCompile 'junit:junit:4.12'
 }
@@ -40,7 +40,7 @@ publish {
     userOrg = 'vic-tan'//bintray.com用户名
     groupId = 'com.vic-tan'//jcenter上的路径
     artifactId = 'basic-library-photoview'//项目名称
-    publishVersion = '1.0.0'//版本号
+    publishVersion = '1.0.3'//版本号
     desc = 'Oh hi, this is a nice description for a project, right?'//描述，不重要
     website = 'https://github.com/vic-tan/basic-library-photoview'//网站，不重要；尽量模拟github上的地址，例如我这样的；当然你有地址最好了
 }
